@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    background-color: #fa7171;
+}
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+button:focus {
+    outline: none;
+}
+
+.slider {
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-self: center;
+    width: 1000px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider h3 {
+    color: #fa7171;
+    text-align: left;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;    
+}
+.slider p {
+    text-align: left;
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding-top: 10px;
+    margin: 0;   
+}
+
+.timer {
+    background-color: #c3c1c1;
+}
+.temperature {
+    background-color: #807f7f;
+}
+.load {
+    background-color: #333232;
+}
+
+.size {
+    width: 300px;
+    height: 300px;
+}
+
+.left-botton {
+    width: 90px;
+    height: 90px;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+.left-botton:hover {
+    opacity: 0.8;
+}
+
+.start {
+    position: absolute;
+    bottom: -15px;
+    left: 115px;
+    padding: 20px 80px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+}
+.start:hover {
+    bottom: -10px;
+    box-shadow: 0 0 5px 0px black;
+    }
+
